@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="550.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.StreamDeskController">
+   <children>
+      <Button fx:id="spotifyImgButton" layoutX="122.0" layoutY="14.0" mnemonicParsing="false" onAction="#OpenSpotifyButton" prefHeight="92.0" prefWidth="130.0" AnchorPane.leftAnchor="122.0" AnchorPane.topAnchor="14.0">
+         <graphic>
+            <ImageView fitHeight="69.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@spotify.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="spotifyImgButton1" layoutX="281.0" layoutY="132.0" mnemonicParsing="false" onAction="#OpenPremiereButton" prefHeight="92.0" prefWidth="130.0" text="Premiere" />
+      <Button fx:id="spotifyImgButton2" layoutX="281.0" layoutY="14.0" mnemonicParsing="false" onAction="#OpenPhotoShopButton" prefHeight="92.0" prefWidth="130.0" text="PhotoShop" />
+      <Button fx:id="spotifyImgButton3" layoutX="122.0" layoutY="132.0" mnemonicParsing="false" onAction="#OpenFormat_FactoryButton" prefHeight="92.0" prefWidth="130.0" text="Format Factory" />
+      <Button layoutX="922.0" layoutY="224.0" mnemonicParsing="false" onAction="#AppSectionNextButton" prefHeight="102.0" prefWidth="64.0" text="&gt;" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Button>
+      <Button layoutY="224.0" mnemonicParsing="false" onAction="#DirectorySectionNextButton" prefHeight="102.0" prefWidth="64.0" text="&lt;" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="spotifyImgButton21" layoutX="435.0" layoutY="14.0" mnemonicParsing="false" onAction="#OpenZoomItButton" prefHeight="92.0" prefWidth="130.0" text="ZoomIt" />
+   </children>
+</AnchorPane>

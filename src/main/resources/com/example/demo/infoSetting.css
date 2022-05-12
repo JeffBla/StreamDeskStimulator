@@ -1,0 +1,16 @@
+.root{
+    -fx-background-color: #058245;
+}
+
+.hyperlink{
+    -fx-text-fill: purple;
+    -fx-font-weight: bold;
+}
+
+.button{
+    -fx-background-color: #58b0f7;
+}
+
+#EnterIndexTextField{
+    -fx-background-color: #afffc2;
+}

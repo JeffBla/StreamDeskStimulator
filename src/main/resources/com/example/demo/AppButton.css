@@ -1,0 +1,11 @@
+.root{
+    -fx-background-color: #058245;
+}
+
+.button{
+    -fx-background-color: #58b0f7;
+}
+
+#spotifyImgButton{
+    -fx-background-color: #000000;
+}
